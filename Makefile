@@ -34,8 +34,8 @@
 #  7. Type "make upload", reset your Arduino board, and press enter to
 #     upload your program to the Arduino board.
 
+INSTALL_DIR = /PATH/TO/arduino-0018/
 TARGET = $(notdir $(CURDIR))
-INSTALL_DIR = /home/stef/tasks/hackerspace/arduino/arduino-0018/
 PORT = /dev/ttyUSB0
 UPLOAD_RATE = 19200
 AVRDUDE_PROGRAMMER = stk500v1
